@@ -267,7 +267,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 128
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -293,7 +293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 6.04, z: -21.167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -356,6 +356,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c797a8dea1dd9d24ab2ad6c54a6dffdf, type: 3}
+--- !u!1001 &1495972412921188170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 869644288239116672, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909593419876789678, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_Name
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7656344594863885489, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2947e54b83b43aa47b8f479fa2e62f24, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7106b04236dfdd43a248e5d85d7c91c, type: 3}
 --- !u!1001 &5518851091500320078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -420,6 +481,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 205855809, guid: 849e257899132f446ab5e4d30ebce9f7, type: 3}
+      propertyPath: RotationThrust
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 205855810, guid: 849e257899132f446ab5e4d30ebce9f7, type: 3}
+      propertyPath: m_Drag
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 205855810, guid: 849e257899132f446ab5e4d30ebce9f7, type: 3}
+      propertyPath: m_Constraints
+      value: 56
+      objectReference: {fileID: 0}
     - target: {fileID: 1090820435979923384, guid: 849e257899132f446ab5e4d30ebce9f7, type: 3}
       propertyPath: m_Name
       value: Rocket
